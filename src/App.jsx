@@ -25,6 +25,8 @@ const NomeMaiusculo = () => {
   return pessoa.name.toUpperCase() + ' ' + pessoa.lastname.toUpperCase();
 }
 
+
+
 function App() {
   return (
     <div className="App">
@@ -40,6 +42,12 @@ function App() {
         <button onClick={eventoBotao}>Evento de botão</button>
        
       </header>
+
+      <body>
+        <div id="root">
+
+        </div>
+      </body>
     </div>
   );
 }
